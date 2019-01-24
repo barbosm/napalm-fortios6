@@ -1,0 +1,8 @@
+{'fqdn': 'heimdallr.lab.home',
+ 'hostname': 'heimdallr',
+ 'interface_list': None,
+ 'model': None,
+ 'os_version': 'v6.0.2',
+ 'serial_number': 'FG81EP4Q1700286XX',
+ 'uptime': None,
+ 'vendor': 'Fortinet'}
