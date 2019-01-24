@@ -1,0 +1,1 @@
+{'dns-cache-limit': 5000, 'secondary': '208.91.112.52', 'dns-cache-ttl': 1800, 'ip6-primary': '::', 'source-ip': '0.0.0.0', 'domain': 'lab.home', 'primary': '208.91.112.53', 'cache-notfound-responses': 'disable', 'ip6-secondary': '::'}

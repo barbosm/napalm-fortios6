@@ -14,6 +14,7 @@ def set_device_parameters(request):
     """Set up the class."""
     def fin():
         request.cls.device.close()
+    
     request.addfinalizer(fin)
 
     request.cls.driver = fortios6.FortiOS6Driver

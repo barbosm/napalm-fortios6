@@ -88,8 +88,9 @@ class FortiOS6Driver(NetworkDriver):
         facts = {}
 
         system_global = self.device.get('system', 'global')
+        print(system_global)
         system_dns = self.device.get('system', 'dns')['results']        
-
+        print(system_dns)
         facts['hostname'] = system_global['results']['hostname']
         facts['fqdn'] = facts['hostname'] + '.' + system_dns['domain']
         facts['vendor'] = 'Fortinet'
